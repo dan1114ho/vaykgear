@@ -1,0 +1,211 @@
+body{color: #858585; font-size: 15px; background-image: url('../images/overlay.png'); line-height: 1.7em; font-family: 'Cabin',sans-serif;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
+h1,h2,h3,h4,h5{clear:both; margin: 10px 0px 15px 0px; font-weight: normal; line-height: normal;}
+h1{font-size: 28px; margin: 0px 0px 15px 0px; font-family: "Oswald", sans-serif;}
+h1 span{font-family: Georgia; font-style: italic; font-size: 20px; color: #A6B86C; float:right; margin: 0px 10px 0px 0px;}
+h2{font-size: 22px; margin-bottom: 60px;}
+h3{font-size: 18px;}
+h4{font-size: 16px; font-weight: bold;}
+hr{height: 1px; width: 100%; border: 0px; background: #F2F2F2; float:left; clear: both; margin: 15px 0px 15px 0px; }
+p{margin-bottom: 15px;}
+
+/* Bootstrap: Extend Columns */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.modal-content{border-radius: 0;}
+
+.form-control{margin-bottom: 5px; border-radius: 0;}
+
+span.wpcf7-not-valid-tip {display: none;}
+div.wpcf7-validation-errors {
+    background: #ffe2e2;
+    border: 1px solid #ff0000;
+    color: #C10000;
+}
+ 
+div.wpcf7-response-output {
+    margin: 2em 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ 
+div.wpcf7-validation-errors {
+    display: none !important;
+}
+.wpcf7-spam-blocked {
+     background: #e2e2e2;
+     border: 1px solid #bcbcbc !important;
+     color: #383838;
+}
+ 
+.wpcf7-mail-sent-ng {
+     background: #fcf8e3;
+     border: 1px solid #ac9163 !important;
+     color: #8a6d3b;
+}
+ 
+.wpcf7-mail-sent-ok {
+     background: #dff0d8;
+     border: 1px solid #3c763d !important;
+     color: #3c763d;
+}
+
+
+blockquote{font-size: 16px; font-style: italic;}
+blockquote .fa-quote-left{color: #cccccc;}
+
+img{max-width: 100%; height: auto;}
+
+/* Define Main Containers */
+#site-container{background: #ffffff;}
+
+.bg-green {background-color: #F1F7E5; color: #346636;}
+.bg-grey {background-color: #F2F2F2; color: #4d4d4d;}
+.bg-blue{background: #d7eeff;}
+.border-grey-top{border-top: 2px solid #e9e8e8;}
+.border-grey-bottom{border-bottom: 2px solid #e9e8e8;}
+
+/* Define Links */
+a{color: #2d2d2d; text-decoration: none;}
+a:hover{color: #2d2d2d; text-decoration: underline;}
+
+/* New Buttons, Phase out the above. */
+.btn-full, a.btn-full{width: 100%;}
+.btn-large, a.btn-large{width: 235px;}
+.btn-blue,a.btn-blue{background: #499AD5;}
+.btn-loud:hover, a.btn-loud:hover, a.btn-loud:focus{color:#ffffff;}
+
+/* Bootstrap Overrides: Buttons */
+.btn{padding: 10px 15px;}
+body .btn-primary{font-weight: bold; color: #ffffff; border-color: #f79021; background: #f79021;}
+body .btn-primary:hover,body .btn-primary:focus, .btn-primary.active, .open .dropdown-toggle.btn-primary{border-color: #f79021; background: #f79021; opacity: .8; }
+.btn-lg{padding: 15px 25px; font-size: 18px;} 
+.btn-default{ background-color: #fff; border-color: #499ad5; color: #499ad5;}
+
+/* Define Text Styles */
+.text_sm,.small{font-size: .9em; line-height: 1.5em;}
+.tiny{font-size: 0.8em; line-height: normal;}
+.med{font-size: 1.4em;}
+.large{font-size: 2em; line-height: 1.2em;}
+.textAreaBig{color: #858585; font-family: Arial; font-size: 14px;}
+.text_1{color: #A6B86C;} /* Light Green */
+.quiet{color: #c7c7c7;} /* Light Grey */
+.loud{color: #D75548;} /* Red */
+.soft{color: #cccccc;} /* grey */
+.light{color: #ffffff;} /* White */
+.blue{color: #499AD5;} /* Blue */
+.cursor{cursor:pointer;}
+
+.stylish{font-family: Georgia;}
+.center{text-align: center;}
+
+.divider{float:left; width: 100%; margin: 1.5em 0 1.5em 0; height: 1px; background: #CCCCCC; border: 0px;}
+
+/* Define Positioning  */
+.clear{clear:both;}
+.left{float:left;}
+.right{float:right;}
+.alignleft{float:left; margin: .5em 1em 1em 0em;}
+.alignright{float:right; margin: .5em 0em 1em 1em;}
+.aligncenter{margin: 0 auto 0 auto; clear: both; display: block;}
+
+/* Lead Capture Overrides */
+.lead_form h3{color: #499ad5;}
+
+/* Events, Calendars */
+.eventNameText{font-size: 12px; font-style: normal; font-family: Arial;}
+.tinyDates{font-size: 11px; font-weight: normal; font-family: Arial; color: #858585}
+.calendarDates{font-weight: bold;}
+
+#site_loader{display: none; position: fixed; z-index: 1000; top: 40%; left: 0; right: 0; margin-left: auto; margin-right: auto; background: #ffffff url('../images/loader-circle.gif') no-repeat center center; height: 45px; width: 45px; padding: 60px; box-shadow: 0px 0px 3px 1px #CCCCCC;}
+
+/* Forms */
+.message-box{padding: 1em; margin-top: 1.5em; margin-bottom: 1.5em;}
+.error{color: #B94A48; border: 1px solid #B94A48;}
+.success{color: #2EB100; background: #D9F6CE; font-size: 16px; border: 1px solid #9cd786;}
+
+.message-box button{border: 1px solid;background: transparent;}
+
+/* Dialogs */
+#confirmation-message{font-style: italic; margin-bottom: 15px;}
+    
+/* Margins for Tops & Bottoms */
+div.prepend-top, .prepend-top {margin-top:3em;}
+div.append-bottom, .append-bottom {margin-bottom:3em;}
+.padding{padding: 1.5em;}
+
+/* Theme: Margins */
+.top0 { margin-top:0px; }
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+.top40 { margin-top:40px; }
+.top50 { margin-top:50px; }
+.top60 { margin-top:60px; }
+.top120 { margin-top:120px; }
+
+.bottom0 { margin-bottom:0px; }
+.bottom5 { margin-bottom:5px; }
+.bottom7 { margin-bottom:7px; }
+.bottom10 { margin-bottom:10px; }
+.bottom15 { margin-bottom:15px; }
+.bottom17 { margin-bottom:17px; }
+.bottom30 { margin-bottom:30px; }
+.bottom40 { margin-bottom:40px; }
+.bottom50 { margin-bottom:50px; }
+.bottom60 { margin-bottom:60px; }
+.bottom120 { margin-bottom:120px; }
+
+/* Forms */
+
+input[readonly="readonly"]{background-color: #eeeeee;}
+
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+/*Bootstrap Reponsive Overrides */
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (max-width: 1169px) {
+
+}
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 767px){
+
+}

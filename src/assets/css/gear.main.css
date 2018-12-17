@@ -1,0 +1,85 @@
+.btn{min-width: 110px; border-radius: 0;}
+ h1, .h1{color: #4d4d4d;}
+    h2, .h2 {color: #4d4d4d;}
+    h3, .h3 {color: #4d4d4d;}
+   .btn-default {background-color: transparent; border-color: #4d4d4d;color: #4d4d4d;}
+   .btn-default:hover,.btn-default:focus{background-color: transparent; color: #4d4d4d; border-color: #4d4d4d; opacity: .7;}
+   /* Modal */
+   #dialog-confirmation .modal-dialog{max-width: 400px;}
+   .modal-header{border-bottom: 0px;}
+   #dialog-confirmation h2{margin-top: 0; margin-bottom: 15px;}
+    
+    #site-logo img{max-width: 85px;}
+    #vrm-logo img{max-width: 125px; margin-top: 10px;}
+    .container-available{font-size: 17px; text-transform: uppercase;}
+    
+    #process-steps{border-bottom: solid 1px #eeeeee; padding-bottom: 30px;}
+	.bs-wizard {margin-top: 40px;}
+	
+	/*Form Wizard*/
+	.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+	.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+	.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+	.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+	.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+	.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #c6c6c6; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+	.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #858585; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+	.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+	.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #c6c6c6;}
+	.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+	.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+	.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+	.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+	.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+	.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+	.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+	.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+	.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+	/*END Form Wizard*/
+	
+	#contain-credit-application{text-align: center; line-height: 1.3;}
+	#contain-credit-application strong{font-size: 18px;}
+	#contain-credit-application strong .fa{width: 30px;height: 30px; border-radius: 50%; background: transparent; border: 2px solid #499AD5; color: #499AD5; line-height: 1.4; font-size: 20px;}
+	
+	#process-message,#welcome-message{font-size: 18px; margin-bottom: 30px; margin-top: 10px; min-height: 50px;  text-align: center; color: #4d4d4d;}
+	#process-message h2,#welcome-message h2{margin-top: 0; margin-bottom: 0;}
+	
+	#coupon-promo-message{margin-bottom: 20px;}
+	#coupon-promo-message h3{font-weight: bold; margin-bottom: 15px;}
+	.modal-body{color: #4d4d4d;}
+    
+    #cart-pricing{float: left; width: 100%; position: relative;}
+	#cart-loader{z-index: 110;position: absolute;width: 100%;height: 100%;text-align: center;background: #ffffff;}
+	#cart-loader .fa {font-size: 35px; color: #4d4d4d; position: relative; top: 35%; transform: translateY(-50%);}
+    
+    /* Items */
+   .item{min-height: 315px;}
+   .item img{border: 2px solid transparent;}
+    .item h3{min-height: 45px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;}
+   .item.highlight h3{color: #499ad5; font-weight: bold;}
+   .item.highlight:before {
+	    content: "\f005";
+	    font-family: FontAwesome;
+	    color: #499ad5;
+	    left:20px;
+	    position:absolute;
+	    top:0;
+	}
+	.item label{font-weight: normal; line-height: 1.2;}
+   .item .price{color: #499ad5;}
+   .item .gear-product-description{min-height: 60px;}
+   .item.disabled img{opacity: .3;}
+   .item.disabled h3{color: #858585;}
+   .item.disabled .price{color:#858585;}
+   
+   .featuredItem h4{min-height: 40px; margin-bottom: 0px;}
+   #container-order{min-height: 650px;}
+   
+   label.error{padding: 5px;}
+   
+   @media (max-width: 991px){
+    
+   }
+   @media (max-width: 767px){
+   	.item{border-bottom: 1px solid #cccccc; padding-bottom: 30px;}   
+   }
